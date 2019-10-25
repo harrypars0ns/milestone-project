@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700&display=swap');
+
+body,
+html {
+    height: 100%;
+}
+
+/*----------------------------------------- ABOUT*/
+
+.landing {
+    background-image: url('../images/landing2.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.heading {
+    font-family: 'Exo', sans-serif;
+    color: #e8dcff;
+    text-align: center;
+    padding-top: 30%;
+    width: 75%;
+    margin: auto;
+}
+
+.company-name {
+    font-size: 3em;
+
+}
+
+.slogan {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+
+}
+
+.btn-success {
+    color: #e8dcff;
+    background-color: #228c3a;
+    border-color: #228c3a
+}
+
+
+/*----------------------------------------- ABOUT*/
+
+.about {
+    background-image: url('../images/about3.jpg');
+    height: 95%;
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*----------------------------------------- CONTACT*/
+
+.contact {
+    background-image: url('../images/contact.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
