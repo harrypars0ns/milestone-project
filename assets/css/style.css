@@ -6,40 +6,19 @@ html {
     height: 100%;
 }
 
-/*----------------------------------------- ABOUT*/
+/*----------------------------------------- LANDING*/
 
 .landing {
-    background-image: url('../images/landing2.jpg');
+    background-image: url('../images/landing3.jpg');
     height: 100%;
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-  
-}
-
-.heading {
-    font-family: 'Exo', sans-serif;
-    color: #e8dcff;
-    text-align: center;
-    padding-top: 30%;
-    width: 75%;
-    margin: auto;
-}
-
-.company-name {
-    font-size: 3em;
 
 }
 
-.slogan {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    font-size: 1.5em;
 
-}
 
 .btn-success {
     color: #e8dcff;
@@ -47,11 +26,303 @@ html {
     border-color: #228c3a
 }
 
+.heading {
+    padding-top: -61.5px;
+}
+
+/*---------------------------------------------------------MEDIA QUERIES*/
+
+/*---------------------THIN-MOBILES*/
+
+@media (max-width:360px) {
+
+    .heading {
+        font-family: 'Exo', sans-serif;
+        color: #e8dcff;
+        text-align: center;
+        padding-top: 15%;
+        width: 75%;
+        margin: auto;
+    }
+
+    .company-name {
+        font-size: 2.5em;
+
+
+    }
+
+    .full-title {}
+
+    .slogan {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Exo", sans-serif;
+        font-weight: 300;
+        font-size: 1.5em;
+        margin: 2% -10%;
+
+    }
+}
+
+
+
+.btn-success {
+    color: #e8dcff;
+    background-color: #228c3a;
+    border-color: #228c3a;
+    /*display: none;*/
+}
+
+/*----------------------------------------------------------*/
+
+/*---------------------MOBILES*/
+
+@media (min-width: 361px) and (max-width:767px) {
+
+    .heading {
+        font-family: 'Exo', sans-serif;
+        color: #e8dcff;
+        text-align: center;
+        padding-top: 25%;
+        width: 75%;
+        margin: auto;
+    }
+
+    .company-name {
+        font-size: 2.8em;
+
+
+    }
+
+    .full-title {}
+
+    .slogan {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Exo", sans-serif;
+        font-weight: 300;
+        font-size: 1.5em;
+
+    }
+}
+
+
+
+
+/*TABLETS*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .heading {
+        font-family: 'Exo', sans-serif;
+        color: #e8dcff;
+        text-align: center;
+        padding-top: 15%;
+        width: 75%;
+        margin: auto;
+    }
+
+    .company-name {
+        font-size: 5em;
+        letter-spacing: 3px;
+
+    }
+
+    .slogan {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Exo", sans-serif;
+        font-weight: 300;
+        font-size: 3em;
+        margin-top: 15%;
+
+    }
+
+    nav {
+        color: #e8dcff;
+        text-align: center;
+        font-family: 'Exo', sans-serif;
+        font-size: 1.5em;
+        padding-top: 2%;
+
+    }
+}
+
+/*----------------------------*/
+
+@media (min-width: 992px) {
+
+    nav {
+        color: #e8dcff;
+        text-align: center;
+        font-family: 'Exo', sans-serif;
+        font-size: 2em;
+        padding-top: 2%;
+
+    }
+}
+
+
+
+
+/*----------------------SMALL-DESKTOPS*/
+
+@media (min-width: 992px) and (max-width: 1600px) {
+
+    .heading {
+        font-family: 'Exo', sans-serif;
+        color: #e8dcff;
+        text-align: center;
+        padding-top: 8%;
+        width: 70%;
+        margin: auto;
+    }
+
+    .company-name {
+        font-size: 4.5em;
+
+    }
+    
+    .the {
+        font-size: 4em;    
+    }
+    
+    /*.full-title {*/
+    /*    padding-top: 5%;*/
+    /*}*/
+
+    .slogan {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Exo", sans-serif;
+        font-weight: 300;
+        font-size: 2em;
+        padding-top: -7%;
+    }
+}
+
+.btn-success {
+    color: #e8dcff;
+    background-color: #228c3a;
+    border-color: #228c3a padding-bottom: 15%;
+}
+
+/*----------------------LARGE-DESKTOPS*/
+
+@media (min-width: 1601px) {
+
+    .heading {
+        font-family: 'Exo', sans-serif;
+        color: #e8dcff;
+        text-align: center;
+        padding-top: 8%;
+        width: 60%;
+        margin: auto;
+    }
+
+    .company-name {
+        font-size: 5em;
+
+    }
+
+    .full-title {
+        padding-top: 5%;
+    }
+    .slogan {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Exo", sans-serif;
+        font-weight: 300;
+        font-size: 2.5em;
+        padding-top: 7%;
+    }
+}
+
+
+/*----------------------TALL-DEVICES*/
+
+@media (min-height: 1100px) {
+
+    .heading {
+        font-family: 'Exo', sans-serif;
+        color: #e8dcff;
+        text-align: center;
+        padding-top: 20%;
+        width: 60%;
+        margin: auto;
+    }
+
+    .company-name {
+        font-size: 6em;
+
+    }
+
+  
+    .slogan {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: "Exo", sans-serif;
+        font-weight: 300;
+        font-size: 2.5em;
+        padding-top: 50%;
+
+    }
+}
+
+
+/*-------------------------------------------------------NAV*/
+
+nav {
+    color: #e8dcff;
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    padding-top: 2%;
+
+
+}
+
+nav a {
+    color: #e8dcff;
+    text-decoration: none;
+
+}
+
+
+
+
+a:hover {
+  color: #e8dcff;
+  right: 0;
+  text-decoration: none;
+}
+
+a:hover:after {
+  border-color: #e8dcff;
+  right: 0;
+}
+
+a:after {
+  border-radius: 1em;
+  border-top: .1em solid #e8dcff;
+  content: "";
+  position: absolute;
+    right: 100%;
+    bottom: .14em;
+    left: 0;
+  transition: right .4s cubic-bezier(0,.5,0,1),
+              border-color .4s ease-out;
+}
+
+a:hover:after {
+right: 0;
+}
+
+
 
 /*----------------------------------------- ABOUT*/
 
 .about {
-    background-image: url('../images/about3.jpg');
+    background-image: url('../images/about4.jpg');
     height: 95%;
     /*background-attachment: fixed;*/
     background-position: center;
@@ -63,7 +334,7 @@ html {
 /*----------------------------------------- CONTACT*/
 
 .contact {
-    background-image: url('../images/contact.jpg');
+    background-image: url('../images/contact3.jpg');
     height: 100%;
     background-attachment: fixed;
     background-position: center;
