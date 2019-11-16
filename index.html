@@ -21,7 +21,7 @@
                     <a href="#about">ABOUT</a>
                 </div>
                 <div class="col-4">
-                    <a href="#about">PORTFOLIO</a>
+                    <a href="#portfolio">PORTFOLIO</a>
                 </div>
                 <div class="col-4">
                     <a href="#contact">CONTACT</a>
@@ -34,7 +34,7 @@
 
 
 
-        <div id="intro" class="view">
+        <div id="landing" class="view">
 
             <div class="mask rgba-black-strong">
 
@@ -65,14 +65,133 @@
 
 
 
+    <!------------------------------------------------------------------ABOUT->-->
+
+
+
     <div class='about' id='about'>
 
-        <div class="info">
+        <div class="info text-center">
+            <div class="">
+                <h1>ABOUT</h1>
+            </div>
 
-            <h1>ABOUT</h1>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p>The Gardeners Cooperative was founded in Hanwell, London in 1939. The mission was to start a network of gardeners that could serve the community with low rates, so that everyone could afford to have a beautiful garden; while creating
+                            well paid & secure jobs for local people. Since then the company has grown to cover most of West London, purely through a non-hierarchical, non-exploitative employment model. We are a collective that is run by the community,
+                            for the community.</p>
+                    </div>
 
-            <p>The Gardeners Cooperative was founded in Hanwell, London in 1939. The mission was to start a network of gardeners that could serve the community with low rates, so that everyone could afford to have a beautiful garden; while creating well
-                paid & secure jobs for local people. Since then the company has grown to cover most of West London, purely through a non-hierarchical, non-exploitative employment model. We are a collective that is run by the community, for the community.</p>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <!-------------------------------------------------------------------PORTFOLIO-->
+        <div class="container-fluid portfolio" id='portfolio'>
+            <div class="text-center">
+                <h1>PORTFOLIO</h1>
+            </div>
+            <div class="portfolio">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100 responsive" src="assets/images/lady.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 responsive" src="assets/images/lady2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 responsive" src="assets/images/flowers.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 responsive" src="assets/images/lady4.jpg" alt="Fourth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 responsive" src="assets/images/bench.jpg" alt="Fifth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 responsive" src="assets/images/bloom.jpg" alt="Sixth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 responsive" src="assets/images/lady3.jpg" alt="Seventh slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 responsive" src="assets/images/adult3.jpg" alt="Eighth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100 responsive" src="assets/images/garden.jpg" alt="Nninth slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-------------------------------------------------------------------CONTACT-->
+
+
+    <div class='contact' id='contact'>
+
+        <section class='container-fluid'>
+            <div class="row form-page">
+                <div class="col">
+                        <div class="contact-info">
+                        <h5 class='contact-heading question'>Need information, a quote or making an enquiry?</h4>
+                        <h2 class='contact-heading'>Get in touch</h2>
+                        </div>
+                        <div class="form">
+                            <form>
+                                <input type="text" name="name" id "fullname" class='form-control' placeholder='Name' required/>
+                                <input type="email" name="email" id "email" class='form-control' placeholder='Email' required/>
+                                <textarea rows='5' name="message" id "message" class='form-control' placeholder='Message' required/></textarea>
+                                <div class="submit">
+                                <input id='submit' type="submit" value="Submit" />
+                                </div>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="footer" id='footer'>
+            <div class="iconwrapper" <a href="#" class="fa fa-facebook">
+                </a>
+                <a href="#" class="fa inner fa-twitter"></a>
+                <a href="#" class="fa inner fa-youtube"></a>
+                <a href="#" class="fa inner fa-instagram"></a>
+                <a href="#" class="fa inner fa-snapchat-ghost"></a>
+                <a href="#" class="fa inner fa-facebook"></a>
+                
+
+            </div>
 
         </div>
     </div>
@@ -80,67 +199,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    <!--    <div class="container heading">-->
-
-    <!--        <div class="full-title">-->
-    <!--            <h1 class='company-name the'>The</h1>-->
-    <!--            <h1 class='company-name'>Gardeners Cooperative</h1>-->
-    <!--        </div>-->
-
-
-    <!--        <p class='slogan'>Ealing & Hanwell Landscape Gardeners</p>-->
-    <!--<button type="button" class="btn btn-success btn-lg">Take a Look</button>-->
-
-    <!--    </div>-->
-
-
-    <!--</div>-->
-    <!------------------------------------------------------------------ABOUT->-->
-
-
-
-
-
-
-
-    <!-------------------------------------------------------------------CONTACT-->
-
-
-    <!--<div class='contact' id='contact'>-->
-
-
-    <!--    <div class="footer">-->
-    <!--        <div class="iconwrapper">-->
-    <!--            <div class="icon">-->
-
-    <!--                <a href="#" class="fa fa-facebook"></a>-->
-    <!--                <a href="#" class="fa fa-twitter"></a>-->
-    <!--                <a href="#" class="fa fa-youtube"></a>-->
-    <!--                <a href="#" class="fa fa-instagram"></a>-->
-    <!--                <a href="#" class="fa fa-snapchat-ghost"></a>-->
-
-    <!--            </div>-->
-
-    <!--        </div>-->
-
-    <!--    </div>-->
-    <!--</div>-->
-
-
- 
- 
 
 
 

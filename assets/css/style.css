@@ -12,13 +12,15 @@
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 1px solid rgba(0, 255, 0, 1);
+    border: 0px;
     z-index: 1;
+    padding-bottom: 10%;
 }
 
 
 body {
     padding: 0;
+    background: green;
 }
 
 html,
@@ -60,6 +62,8 @@ h2 {
 h4 {
     padding-top: 50%;
 }
+
+
 
 
 .btn-outline {
@@ -127,460 +131,235 @@ a:hover:after {
 
 
 
+
+
+.no-padding {
+    padding: 0 !important;
+}
+
+
+
+
 /*----------------------------------------- ABOUT*/
 
-/*.about {*/
+.about {
 
-/*    background-image: url('../images/about4.jpg');*/
+    background-image: url('../images/about3-min.jpg');
 
-/*    height: 95%;*/
+    /*background-position: center;*/
+    background-repeat: no-repeat;
 
-/*background-attachment: fixed;*/
+    background-size: cover;
 
-/*    background-position: center;*/
-
-/*    background-repeat: no-repeat;*/
-
-/*    background-size: cover;*/
-
-/*    border: 1px solid rgba(0, 255, 0, 1);*/
-
-/*}*/
-
-/*.info {*/
-
-/*    width: 80%;*/
-
-/*    padding-top: 5%;*/
-
-/*    padding-left: 3%;*/
-
-/*    font-family: "Exo", sans-serif;*/
-
-/*    color: #000000;*/
-
-/*}*/
-
-/*.info h1 {*/
-
-/*    font-size: 2em;*/
-
-/*    text-decoration: underline;*/
-
-/*}*/
-
-/*.info p {*/
-
-/*    padding-top: 5%;*/
-
-/*}*/
-
-/*----------------------------------------- CONTACT*/
-
-/*.contact {*/
-
-/*    background-image: url('../images/contact3.jpg');*/
-
-/*    height: 100%;*/
-
-/*    background-attachment: fixed;*/
-
-/*    background-position: center;*/
-
-/*    background-repeat: no-repeat;*/
-
-/*    background-size: cover;*/
-
-/*    border: 1px solid rgba(0, 255, 0, 1);*/
-
-/*}*/
-
-/*.footer {*/
-
-/*    position: absolute;*/
-
-/*    bottom: 10;*/
-
-/*}*/
-
-/*.iconwrappper {*/
-
-/*    text-align: center;*/
-
-/*}*/
-
-/*.icon {*/
-
-/*    display: inline-block;*/
-
-/*    text-align: center;*/
-
-/*}*/
-
-/*.icon a {
-	padding: 10px;
-}*/
-
-/*.fa {*/
-
-/*    padding-top: 7px;*/
-
-/*    font-size: 30px;*/
-
-/*    height: 30px;*/
-
-/*    width: 30px;*/
-
-/*    text-align: center;*/
-
-/*    text-decoration: none;*/
-
-/*    border-radius: 50%;*/
-
-/*    background: #557a78;*/
-
-/*    color: white;*/
-
-/*    opacity: 0.2;*/
-
-/*}*/
-
-/*.fa:hover {*/
-
-/*    opacity: 0.9;*/
-
-/*    text-decoration: none;*/
-
-/*    color: #f7f8f8;*/
-
-/*}*/
-
-/*.fa-youtube {*/
-
-/*    padding-left: 1px;*/
-
-/*}*/
-
-/*.icon a {*/
-
-/*    margin: 20px;*/
-
-/*}*/
-
-/*.line2 {*/
-
-/*    height: 70px;*/
-
-/*}*/
-
-@media (min-height: 750px) {
-
-    h4 {
-        margin-top: 70%;
-    }
+    border: 0.1px solid rgba(0, 0, 0, 0);
 
 }
 
-@media (max-height: 500px) {
 
+
+
+.info {
+
+
+    font-family: "Exo", sans-serif;
+
+    color: #000000;
+
+    margin-top: 15%;
+
+}
+
+.info h1 {
+
+    font-size: 2em;
+
+    text-decoration: underline;
+
+}
+
+.info p {
+
+    font-size: 1em;
+
+    padding-top: 5%;
+
+
+}
+
+/*----------------------------------------- CONTACT*/
+
+.portfolio {
+    font-family: "Exo", sans-serif;
+
+    color: #000000;
+
+    margin-top: 1em;
+
+    text-decoration: underline;
+}
+
+
+.carousel {
+    margin-bottom: 40px;
+
+}
+
+
+
+/*----------------------------------------- CONTACT*/
+
+.contact {
+
+    background-image: url('../images/contact3.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.contact-info {
+    font-family: "Exo", sans-serif;
+    text-align: center;
+    color: #e8dcff;
+    
+    margin-top: 3em;
+    margin-bottom: 20px;
+
+}
+
+/*.contact-info h4 {*/
+/*    text-decoration: uppercase;*/
+
+/*}*/
+
+.form {
+    margin-bottom: 7%;
+
+
+}
+
+#submit {
+    font-family: 'Exo', sans-serif;
+    font-size: 150%;
+    border: 1px solid #e8dcff;
+    border-radius: 50px 50px;
+    padding: 0px 30px;
+}
+
+.submit {
+    text-align: center;
+    padding-top: 30px;
+    
+
+}
+
+/*-----------------------------------------ICONS/FOOTER*/
+
+.footer {
+    text-align: center;
+    padding-bottom: 30px;
+    /*padding-bottom: -10px;*/
+}
+
+.iconwrappper {}
+
+.icon {
+    display: inline-block;
+    text-align: center;
+
+
+}
+
+
+
+.fa {
+    padding-top: 5px;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #fff;
+    color: white;
+    opacity: 0.5;
+}
+
+.fa:hover {
+    opacity: 0.9;
+    text-decoration: none;
+    color: #000;
+}
+
+.inner {
+    padding-left: 1px;
+    color: #000;
+}
+
+.fa-youtube {
+    padding-right: 1px;
+
+}
+
+/*--------------------------------------------MEDIA Queries */
+
+@media (min-height: 750px) {
+    h4 {
+        margin-top: 70%;
+    }
+}
+
+@media (max-height: 500px) {
     .btn {
         margin-top: 0px;
     }
-    
     h4 {
         margin-top: 0%;
         padding-top: 0%;
     }
-
 }
 
-
-
-
 @media (min-width: 600px) {
-
     h4 {
         padding-top: 0px;
     }
-
+    .info {
+        margin-top: 5%;
+    }
 }
 
-
-
-@media (min-width: 992px) and (max-width: 1600px) {
+@media (min-width: 1000px) {
 
     h4 {
-        margin-top: 70%;
+        margin-top: 50%;
+    }
+
+
+
+    .info {
+
+        font-size: 2.2em;
+
+    }
+
+    .portfolio h2 {
+        padding-top: 50px;
+    }
+
+    .carousel {
+        padding: 0px 300px;
+    }
+
+    .contact-info {
+        margin-top: 10%;
     }
 
 }
 
+@media (min-width: 1300px) {
+    .form {
+        padding-right: 250px;
+        padding-left: 250px
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-/*-----------------------------------------------------------------MEDIA QUERIES*/
-
-/*@media (orientation:landscape) {*/
-
-/*    .heading {*/
-
-/*        padding: 0;*/
-
-/*        margin-top: 70px;*/
-
-/*        font-size: 100%;*/
-
-/*    }*/
-
-/*    .slogan {*/
-
-/*        margin-top: 50px;*/
-
-/*        line-height: 120%;*/
-
-/*    }*/
-
-/*}*/
-
-/*---------------------THIN-MOBILES*/
-
-/*@media (max-width: 450px) and (min-height: 800px) {*/
-
-/*    .heading {*/
-
-/*    padding-top: 15%;*/
-
-/*    width: 75%;*/
-
-/*    }*/
-
-/*    .company-name {*/
-
-/*        font-size: 2.5em;*/
-
-/*    }*/
-
-/*    .slogan {*/
-
-/*        font-size: 1.5em;*/
-
-/*        padding-top: 120px;*/
-
-/*    }*/
-
-/*}*/
-
-/*----------------------------------------------------------*/
-
-/*MOBILES*/
-
-/*@media (max-width:767px) {*/
-
-/*    .heading {*/
-
-/*        width: 100%;*/
-
-/*        margin: auto;*/
-
-/*    }*/
-
-/*    .company-name {*/
-
-/*        font-size: 2.8em;*/
-
-/*    }*/
-
-/*    .full-title {}*/
-
-/*    .slogan {*/
-
-/*        font-size: 1.5em;*/
-
-/*        margin-top: 120px;*/
-
-/*    }*/
-
-/*}*/
-
-/*------------------------------------------------------*/
-
-/*TABLETS*/
-
-/*@media (min-width: 768px) and (max-width: 991px) {*/
-
-/*    .heading {*/
-
-/*       padding-top: 20%;*/
-
-/*        width: 75%;*/
-
-/*        margin: auto;*/
-
-/*    }*/
-
-/*    .company-name {*/
-
-/*        letter-spacing: 3px;*/
-
-/*        font-size: 3em:*/
-
-/*    }*/
-
-/*    .slogan {*/
-
-/*        font-size: 2em;*/
-
-/*    }*/
-
-/*}*/
-
-/*------------------------------------------------------*/
-
-/*SMALL-DESKTOPS*/
-
-/*@media (min-width: 992px) and (max-width: 1600px) {*/
-
-/*    .heading {*/
-
-/*        padding-top: 8%;*/
-
-/*        width: 70%;*/
-
-/*        margin: auto;*/
-
-/*    }*/
-
-/*    .company-name {*/
-
-/*        font-size: 4em;*/
-
-/*    }*/
-
-/*    .slogan {*/
-
-/*        font-size: 2em;*/
-
-/*    }*/
-
-/*}*/
-
-/*}*/
-
-/*----------------------LARGE-DESKTOPS*/
-
-/*@media (min-width: 1601px) {*/
-
-/*    .heading {*/
-
-/*        padding-top: 8%;*/
-
-/*        width: 60%;*/
-
-/*        margin: auto;*/
-
-/*    }*/
-
-/*    .company-name {*/
-
-/*    }*/
-
-/*    .full-title {*/
-
-/*        padding-top: 5%;*/
-
-/*    }*/
-
-/*    .slogan {*/
-
-/*        font-size: 2.5em;*/
-
-/*        padding-top: 7%;*/
-
-/*    }*/
-
-/*}*/
-
-/*----------------------TALL-DEVICES*/
-
-/*@media (min-height: 1100px) {*/
-
-/*    .heading {*/
-
-/*        padding-top: 20%;*/
-
-/*        width: 60%;*/
-
-/*        margin: auto;*/
-
-/*    }*/
-
-/*    .company-name {*/
-
-/*        font-size: 6em;*/
-
-/*    }*/
-
-/*    .slogan {*/
-
-/*        font-size: 2.5em;*/
-
-/*    }*/
-
-/*}*/
-
-/*------------------------------------------------------------------------*/
-
-/*@media (max-height: 540px) {*/
-
-/*    .full-title{*/
-
-/*        font-size: .5em;*/
-
-/*    }*/
-
-/*}*/
-
-/*------------------------------------------------------------------------*/
-
-/*.heading {*/
-
-*/
-/*    font-family: 'Exo', sans-serif;*/
-
-/*    color: #e8dcff;*/
-
-/*    text-align: center;*/
-
-/*    width: 70%;*/
-
-/*    margin: auto;*/
-
-/*    padding-top: 25%;*/
-
-/*}*/
-
-/*h1 {}*/
-
-/*.slogan {*/
-
-/*    text-align: center;*/
-
-/*    text-transform: uppercase;*/
-
-/*    font-family: "Exo", sans-serif;*/
-
-/*    font-weight: 300;*/
-
-/*    font-size: 2em;*/
-
-/*    margin-top: 200px;*/
-
-/*}*/
