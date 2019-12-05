@@ -88,11 +88,10 @@ nav {
     color: #e8dcff;
     text-align: center;
     font-family: 'Exo', sans-serif;
-    padding: 2%;
-    margin: 0;
+    padding: 1%;
     background: rgba(0, 0, 0, 0.3);
     background-clip: padding-box;
-    width: 100%;
+    /*width: 100%;*/
 
 
 }
@@ -330,7 +329,7 @@ nav a:hover:after {
 
 @media (max-width: 1000px) {
    .info p {
-        font-size: 24px;
+        font-size: 21px;
     }
 }
 
