@@ -57,23 +57,17 @@ h4 {
 
 
 
-.btn-outline {
-    color: #e8dcff;
-    margin-top: 5%;
-}
-
-.btn-outline:hover {
-    color: rgba(112, 241, 146, 0.9);
-}
-
-/*section {*/
-
-/*    text-align: center;*/
-
+/*.btn-outline {*/
+/*    color: #e8dcff;*/
+/*    margin-top: 5%;*/
 /*}*/
 
-/*-------------------------------------------------------NAV*/
+/*.btn-outline:hover {*/
+/*    color: rgba(112, 241, 146, 0.9);*/
+/*}*/
 
+
+/*-------------------------------------------------------NAV*/
 
 nav {
     color: #e8dcff;
@@ -83,8 +77,6 @@ nav {
     background: rgba(0, 0, 0, 0.3);
     background-clip: padding-box;
     /*width: 100%;*/
-
-
 }
 
 nav a {
@@ -174,7 +166,7 @@ nav a:hover:after {
     font-size: 1em;
 
     padding-top: 5%;
-    
+
     text-align: justify;
 
 
@@ -182,12 +174,16 @@ nav a:hover:after {
 
 /*----------------------------------------- portfolio*/
 
+#portfolio {
+    margin-bottom: 55px;
+}
+
 .portfolio {
     font-family: "Exo", sans-serif;
 
     color: #000000;
-    
-    
+
+
 
     margin-top: 1em;
 
@@ -220,13 +216,14 @@ nav a:hover:after {
     /*color: #e8dcff;*/
     color: #252129;
 
-    
+
     margin-top: 3em;
     margin-bottom: 20px;
 
 }
 
 /*.contact-info h4 {*/
+
 /*    text-decoration: uppercase;*/
 
 /*}*/
@@ -248,7 +245,7 @@ nav a:hover:after {
 .submit {
     text-align: center;
     padding-top: 30px;
-    
+
 
 }
 
@@ -319,7 +316,7 @@ nav a:hover:after {
 }
 
 @media (max-width: 1000px) {
-   .info p {
+    .info p {
         font-size: 21px;
     }
 }
@@ -359,12 +356,19 @@ nav a:hover:after {
         margin-top: 10%;
     }
 
+       .shift {
+        position: relative;
+        bottom: 30px;
+    }
+    
 }
+
+
 
 @media (min-width: 1300px) {
     .form {
         padding-right: 250px;
         padding-left: 250px
     }
-}
 
+}
