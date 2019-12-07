@@ -2,17 +2,38 @@
 
 User-Centric-Frontend-Development-Milestone-Project.
 
-This website is to be used as: a portfolio for potential clients and a place for people to get in touch to work with us. It provides essential information on the nature & structure of the company, a portfolio of examples of our work plus a contact form with social media links.
+This website is to be used as: a portfolio for potential clients and a place for people to get in touch to work with us. It provides essential information on the nature & structure of the company, a portfolio of examples of our work plus a contact form with social media links. 
+We have been running since 1939 and never had an online presence. In the 21st century The Gardeners Cooperative cannot maintain an offline business model, this website fixes that.
  
 ## UX
- 
+
+### Strategy
+
+I want to convey all the necessary information about the company in the simplest possible way. To be aesthetically pleasing and professional.  
+
+### Scope
+
+Some of the functions of the site will be to allow people to view a portfolio of our work, read information on the company, or to give potential clients and new recruits a way of getting in touch.
+
+### Structure
+
 The site was designed to be as user friendly as possible. As we are catering to most of west London I wanted to make sure that the UX was viable for elderly people, those with bad eye-sight, people with dyslexia and those who aren't comfortable using complex websites.
-
-We work with nature and I wanted the design to acknowledge and represent that; I used natural colours like green, brown, lavender, sky-blue and blossom-pink. 
-
-The font sizes have been set to the biggest and most legible they can without sacrificing the usability and aesthetic of the website.
-
 Whether you are a prospective client or a member of the collective you will have no problems in your experience of this site.
+
+### Skeleton
+
+[Landing Page wireframe]  (https://github.com/harrypars0ns/milestone-project/blob/master/wireframes/landing-wireframe.jpg)
+
+[About Page + Portfolio wireframe]  (https://github.com/harrypars0ns/milestone-project/blob/master/wireframes/about-portfolio-wireframe.jpg)
+
+[Contact Page wireframe]  (https://github.com/harrypars0ns/milestone-project/blob/master/wireframes/contact-wireframe.jpg)
+
+### Surface
+ 
+We work with nature and I wanted the design to acknowledge and represent that. I used natural colours like green, brown, lavender, sky-blue and blossom-pink. 
+
+The font sizes and colours have been set to the biggest and most legible they can without sacrificing the usability and aesthetic of the website.
+
 
 ## Features
 The carousel was added as a way to show many images of our work without taking up too much "real-estate". I incorporated parallax scrolling which adds a lot of depth to the site. The navbar has some animation and is stuck to the top of the screen for constant control over where you want to go.  
@@ -47,13 +68,17 @@ The social media buttons are not currently linked to anywhere so they will load 
 
 I had a button with a call to action on the landing page but the icon in the button was not available on some mobiles. I have removed the button until this gets sorted. 
 
+I was having some trouble with the sizing of the landing-page's content and carousel on iPad size screens so I have set up precision media queries on those sizes re-sizing the elements.
+
 I ran the css through the W3C validator with no errors found.
 
 
 
 ## Deployment
 
-I am hosting the site on GitHub pages on the master branch. If you want to run the code locally you can use 'git clone'. Alternatively you can download all the files in a .zip file and open 'index.html' in your browser of choice.
+I am hosting the site on GitHub pages on the master branch. I had a already commited to GitHub a few times before I actually put code on GitHub Pages. To do this I went into the settings tab in my GitHub repository and scrolled down to the GitHub Pages section, selected "master branch" as the source, and clicked 'Save'. This created the link to where my code is being published: "https://harrypars0ns.github.io/milestone-project/".  
+
+If you want to run the code locally you can use 'git clone'. Alternatively you can download all the files in a .zip file and open 'index.html' in your browser of choice.
 
 
 ## Credits
