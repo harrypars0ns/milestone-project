@@ -12,69 +12,50 @@
 </head>
 
 <body>
-    <!------------------------------------------------------NAV&LANDING>-->
+    <!--NAV&LANDING-->
+    
     <section class="landing">
-            <nav class="fixed-top container">
-                <div class="row">
-                    <div class="col-4">
-                        <a href="#about">ABOUT</a>
-                    </div>
-                    <div class="col-4">
-                        <a href="#portfolio">PORTFOLIO</a>
-                    </div>
-                    <div class="col-4">
-                        <a href="#contact">CONTACT</a>
-                    </div>
+        
+        <nav class="fixed-top container">
+            <div class="row">
+                <div class="col-4">
+                    <a href="#about">ABOUT</a>
                 </div>
-            </nav>
+                <div class="col-4">
+                    <a href="#portfolio">PORTFOLIO</a>
+                </div>
+                <div class="col-4">
+                    <a href="#contact">CONTACT</a>
+                </div>
+            </div>
+        </nav>
 
+    <!--TITLE: I'm using ***Bootstrap-grids*** so I can keep this looking good on all screen sizes-->
 
-        <!-----------------------------------------TITLE-->
-
-
-
-        <div id="landing" class="view">
-
+        <section id="landing" class="view">
             <div class="mask rgba-black-strong">
-
                 <div class="container-fluid d-flex align-items-center justify-content-center h-100">
-
                     <div class="content row d-flex justify-content-center text-center">
-
                         <div class="col-md-10 shift">
-
                             <h2 class="font-weight-bold pt-5 mb-2">The Gardeners Cooperative</h2>
-
-
-
                             <h4>Ealing & Hanwell Landscape Gardeners</h4>
-
-
                         </div>
-
                     </div>
-
                 </div>
-
-            </div>  
-
-        </div>
+            </div>
+        </section>
     </section>
 
-
-
-
-    <!----------------------------------------------------------------ABOUT-->
-
-
-
+    <!--ABOUT: This is a flexible section, this is so it doesnt matter how much content you put in here it will remain responsive.
+    I sacrificed having a nice big image here so that this was the case.-->
+    
     <div class="about" id="about">
 
         <section class="info text-center">
-            <div class="">
+            <div>
                 <h1>ABOUT</h1>
             </div>
-
+            
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -82,13 +63,14 @@
                             well paid and secure jobs for local people. Since then the company has grown to cover most of West London, purely through a non-hierarchical, non-exploitative employment model. We are a collective that is run by the community,
                             for the community.</p>
                     </div>
-
                 </div>
             </div>
-
         </section>
+         
+     <!--***BOOTSTRAP-CAROUSEL*** PORTFOLIO: Using a carousel to display more images while taking up less space.-->
+        
         <hr id="portfolio">
-        <!-------------------------------------------------------------------PORTFOLIO-->
+        
         <div class="container-fluid portfolio">
             <div class="text-center">
                 <h1>PORTFOLIO</h1>
@@ -145,16 +127,11 @@
                     <span class="sr-only">Next</span>
                     </a>
                 </div>
-
-
             </div>
-
-
         </div>
     </div>
 
-    <!-------------------------------------------------------------------CONTACT-->
-
+    <!--CONTACT-->
 
     <div class="contact" id="contact">
 
@@ -163,7 +140,7 @@
                 <div class="col">
                     <div class="contact-info">
                         <h5 class="contact-heading question">Need information, a quote or making an enquiry?</h5>
-                            <h2 class="contact-heading">Get in touch</h2>
+                        <h2 class="contact-heading">Get in touch</h2>
                     </div>
                     <div class="form">
                         <form>
@@ -171,7 +148,7 @@
                             <input type="email" name="email" id="email" class="form-control" placeholder="Email" required/>
                             <textarea rows="5" name="message" id="message" class="form-control" placeholder="Message" required></textarea>
                             <div class="submit">
-                                <input id="submit" type="submit" value="Submit"/>
+                                <input id="submit" type="submit" value="Submit" />
                             </div>
                         </form>
                     </div>
@@ -179,13 +156,14 @@
             </div>
         </section>
 
-
+    <!--***FONTAWESOME-ICONS*** FOOTER-->
+    
         <footer class="footer" id="footer">
-                <a href="#" class="fa inner fa-twitter" target="_blank"></a>
-                <a href="#" class="fa inner fa-youtube" target="_blank"></a>
-                <a href="#" class="fa inner fa-instagram" target="_blank"></a>
-                <a href="#" class="fa inner fa-snapchat-ghost" target="_blank"></a>
-                <a href="#" class="fa inner fa-facebook" target="_blank"></a>
+            <a href="#" class="fa inner fa-twitter" target="_blank"></a>
+            <a href="#" class="fa inner fa-youtube" target="_blank"></a>
+            <a href="#" class="fa inner fa-instagram" target="_blank"></a>
+            <a href="#" class="fa inner fa-snapchat-ghost" target="_blank"></a>
+            <a href="#" class="fa inner fa-facebook" target="_blank"></a>
         </footer>
     </div>
 
@@ -194,5 +172,4 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
-
 </html>
